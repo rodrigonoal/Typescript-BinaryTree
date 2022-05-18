@@ -1,6 +1,5 @@
 import TreeNode from "./TreeNode";
-
-type Nullable<T> = T | null;
+import Nullable from "../types/Nullable";
 
 export default class BinarySearchTree {
   root: Nullable<TreeNode>;
